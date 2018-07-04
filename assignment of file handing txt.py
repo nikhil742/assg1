@@ -1,24 +1,24 @@
-#ques1-->
+#1)
 f=open('xyz.txt','r',encoding='utf8')
 d=f.readlines()
 print("last line is-->",d[-1])
 
-#ques2-->
+#2)
 with open("xyz.txt",'r',encoding='utf8') as t:
     d=t.read().split()
     print(len(d))
 
-#ques3-->
+#3)
 with open("xyz.txt",encoding='utf8') as f:
     with open("out.txt", "w",encoding='utf8') as f1:
         for line in f:
             f1.write(line)
-#ques4-->
+#4)
 with open('xyz.txt',encoding='utf8') as fh1, open('out.txt',encoding='utf8') as fh2:
     for line1, line2 in zip(fh1, fh2):
         print(line1+line2)
 
-#ques5-->
+#5)
 import random
 f=open('Random.txt','w')
 for i in range(10):
