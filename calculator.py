@@ -57,19 +57,19 @@ def Ref():
     randomRef = str(x)
     rand.set(randomRef)
 
-    cof =float(Fries.get())
-    colfries= float(Largefries.get())
-    cob= float(Burger.get())
-    cofi= float(Filet.get())
-    cochee= float(Cheese_burger.get())
-    codr= float(Drinks.get())
+    a =float(Fries.get())
+    b = float(Largefries.get())
+    c = float(Burger.get())
+    d = float(Filet.get())
+    e = float(Cheese_burger.get())
+    f = float(Drinks.get())
 
-    costoffries = cof*25
-    costoflargefries = colfries*40
-    costofburger = cob*35
-    costoffilet = cofi*50
-    costofcheeseburger = cochee*50
-    costofdrinks = codr*35
+    costoffries = a*25
+    costoflargefries = b*40
+    costofburger = c*35
+    costoffilet = d*50
+    costofcheeseburger = e*50
+    costofdrinks = f*35
 
     costofmeal = "Rs.",str('%.2f'% (costoffries +  costoflargefries + costofburger + costoffilet + costofcheeseburger + costofdrinks))
     PayTax=((costoffries +  costoflargefries + costofburger + costoffilet +  costofcheeseburger + costofdrinks)*0.33)
@@ -290,4 +290,5 @@ btnprice=Button(root1,padx=16,pady=8, bd=7 ,fg="white",font=('ariel' ,14,'bold')
 btnprice.grid(row=7, column=0)
 
 root.mainloop()
+
 
