@@ -20,7 +20,7 @@ localtime=time.asctime(time.localtime(time.time()))
 
 
 
-lblinfo = Label(Tops, font=( 'aria' ,30, 'bold' ),text="restaurant Management system",fg="blue",bd=5)
+lblinfo = Label(Tops, font=( 'aria' ,30, 'bold' ),text="Restaurant Management System",fg="blue",bd=5)
 lblinfo.grid(row=0,column=0)
 
 lblinfo = Label(Tops, font=( 'aria' ,20,'bold' ),text=localtime,fg="black")
